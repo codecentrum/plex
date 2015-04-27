@@ -1,11 +1,11 @@
-#Bootpad
+#Plex
 
 ##Description
-The Simple MVC Framework for build website application easier
+The Simple PHP Framework for build simple website easier
 including Twitter Bootstrap and jQuery
 
 ##Documentation
-Please visit http://getbootpad.herokuapp.com for more Documentation
+Under Consctuction
 
 ##Legal
 Feel free to update or modified this project. I hope this project can help you built your own project.
