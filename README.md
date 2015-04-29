@@ -1,8 +1,8 @@
 #Plex
 
 ##Description
-The Simple PHP Framework for build simple website easier
-including Twitter Bootstrap and jQuery
+The Simple PHP Framework for build simple website easier without database.
+Styled by Twitter Bootstrap
 
 ##Documentation
 Under Consctuction
