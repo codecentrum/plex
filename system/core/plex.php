@@ -2,7 +2,7 @@
 
 # Plex
 # Build with love by Eky Fauzi (2014)
-# Currently version 1.4.0
+# Currently version 1.0.0
 #
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
