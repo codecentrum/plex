@@ -1,6 +1,6 @@
 <?php 
 
-# Bootpad
+# Plex
 # Build with love by Eky Fauzi
 # Please set your application configuration here
 # If you do not have any configuration, please leave the 
@@ -32,8 +32,8 @@ $environment = '';
 # PATH
 # ---------------------------------------------------------------
 
-# Directory where you install bootpad (root)
-# eg: 'http://yoursite.com/' or 'http://localhost/bootpad/'
+# Directory where you install plex (root)
+# eg: 'http://yoursite.com/' or 'http://localhost/plex/'
 # You can set your basepath or you can leave it blank
 # By default basepath will automaticaly set
 
