@@ -14,16 +14,6 @@ class HomeController extends Controller {
 		# including library if needed
 		$this->library('functions');
 
-
-		# including model if needed
-		$this->User = $this->model('User');
-		# call the model function
-		$hello_world = $this->User->hello_world();
-
-
-		# send value from model to view
-		$data_for_view['hello_world'] = $hello_world;
-
 		# call view and send data for using in view
 		# NOTE: please name your view file same as controller method
 		$this->view('home/index', $data_for_view);

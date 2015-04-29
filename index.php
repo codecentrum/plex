@@ -59,13 +59,13 @@ $method = '';
 # Include core file of this application
 # IMPORTANT! Do not remove the following lines
 
-require_once 'system/core/bootpad.php';
+require_once 'system/core/plex.php';
 require_once 'system/core/controller.php';
 
 
 # Start the application
 
-new Bootpad;
+new Plex;
 
 # End of file index.php
 # Location: /index.php

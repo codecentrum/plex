@@ -1,6 +1,6 @@
 <?php  
 
-# Bootpad
+# Plex
 # Build with love by Eky Fauzi (2014)
 # Currently version 1.4.0
 #
@@ -73,7 +73,7 @@ if ( $controller === '' ) { $controller = 'home'; } define( 'CONTROLLER', 'home'
 if ( $method === '') { $controller = 'index'; } define( 'METHOD', 'index' );
 
 
-class Bootpad {
+class Plex {
 
 	protected $controller = CONTROLLER;
 	protected $method = METHOD;
@@ -92,35 +92,6 @@ class Bootpad {
 
 		# If basic_helper.php is exsist, include here
 		require_once  SYSTEM_PATH .'/helpers/basic_helper.php';
-
-		# Checking if database.php is exist or not
-		if ( !file_exists( 'config/database.php' ) ) {
-
-			echo "File <code>config/database.php</code> not found!" ;
-
-			exit();
-
-		}
-
-		# If database.php is exsist, include here
-		# Setting up database connection if database is set
-		require_once 'config/database.php';
-
-		if ( !empty( $db_host ) && !empty( $db_user ) && !empty( $db_name ) ){
-
-			$db_connect = mysql_connect( $db_host, $db_user, $db_password );
-
-			if ( !$db_connect ){
-			    die( "Could not connect: " . mysql_error() );
-			}
-
-			$db_selected = mysql_select_db( $db_name , $db_connect );
-
-			if ( !$db_selected ){
-			    die( "Can't use ". $database ." : " . mysql_error() );
-			}
-
-		}
 		
 		# Parsing url and store in array
 		if( isset( $_GET['url'] ) ) {
@@ -195,4 +166,4 @@ class Bootpad {
 }
 
 # End of file
-# Location /system/core/bootpad.php
+# Location /system/core/plex.php

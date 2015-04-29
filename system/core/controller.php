@@ -6,7 +6,7 @@
 # 
 # This class handle model, view, and library
 
-class Controller extends Bootpad{
+class Controller extends Plex{
 	
 	function __construct(){
 		
